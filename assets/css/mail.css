@@ -13,8 +13,18 @@
     transform: translate(-50%,-50%);
     visibility: hidden;
     cursor: none;
+	z-index: 50;
 	
 } 
+.con{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.con i{
+	color: #0c1022;
+	font-size:25px ;
+}
 .contact { 
 	text-align: center; 
 	color: #0c1022; 
@@ -24,7 +34,6 @@ form {
 	max-width: 90%; 
 	margin: 0 auto;
     cursor: none;
-
 } 
 
 label { 
@@ -120,4 +129,14 @@ textarea::-webkit-scrollbar {
 	opacity: 0.2;
 	transform: translate(-50%,-30%);
 	border-radius: 50%;
+}
+@media(max-width:895px){
+	form{
+		max-width: 60%;
+		height: 60%;
+	}
+	.form-box{
+		width: 70%;
+		z-index: 100;
+	}
 }

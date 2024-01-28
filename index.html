@@ -17,11 +17,14 @@
     <!--==================== HEADER ====================-->
     <header id="HOME">
       <div class="header-content">
-        <a href="#" class="logo"><h3>Portfolio.</h3></a>
+        <a href="#home2" class="logo">Portfolio.</a>
+        <button id="menu-icon">     
+          <i id="IE" class="bx bx-menu" ></i>
+</button>
         <nav class="navbar">
           <a href="#HOME"style="--i:2">HOME</a>
           <a href="#projects"style="--i:3" #n2>PROJECTS</a>
-          <button type="button"  title="Toggle Dark Mode" id="mode" >
+          <button type="button"  title="Toggle Dark Mode" id="mode" style="--i:4" >
             <i id="ie" class='bx bxs-moon' ></i>
           </button>
         </nav>
@@ -29,7 +32,7 @@
     </header>
     <!--==================== HOME ====================-->
     <section id="home">
-      <div class="main-content">
+      <div class="main-content" id="home2">
         <div class="profile-info">
           <section class="contact">
             <div class="home-sci">
@@ -48,20 +51,23 @@
                 <img src="assets/images/me.png" alt="Myprofile">
             </div>
         </div>
-      </div>
+      
       <div class="text-info">
         <span>Hi,</span>
-         <span>It's Sujan Kumar K </span>
+         <span style="
+    width: 100%;">It's Sujan Kumar K </span>
         
       </div>
-      
+    </div>
         </div>
           <div class="user-bio">
             <h3 class="text-animation">
               I'm a <span></span>
             </h3>
              <p>Aspiring Computer Science Engineer 
-             with a passion for coding, seeking opportunities in software development. Strong in Java, C,C++ and Web technologies. <br>
+             with a passion for coding, seeking opportunities 
+             in software development. Strong in Java, C,C++ and 
+             Web technologies. <br>
              <a href="assets/pdf/Resume.pdf" download>
               Download My CV</a></p>
           </div>
@@ -134,7 +140,7 @@
       </div>
     </section>
     <!--==================== FOOTER ====================-->
-   <footer>&COPY; <a href="https://www.linkedin.com/in/sujan-kumar-k-03111a258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BF6sgESJ0QJOFRhO7qGwVWw%3D%3D" target="_blank">
+   <footer>&COPY; <a href="https://www.linkedin.com/in/sujan-kumar-k164" target="_blank">
     BUILT BY SUJAN KUMAR K</a></footer>
     <!-- =================== CONTACT ================== -->
       <div class="form-box"> 
@@ -142,7 +148,10 @@
           <i class="fa fa-solid fa-clock"></i> 
         </div> 
         <form action="https://formsubmit.co/12faffc3124c86e3accacd9fc72b336d" method="POST" > 
-                <h2 class="contact">CONTACT ME</h2>
+                <div class="con">
+                  <h2 class="contact">CONTACT ME</h2>
+                <a href="#" id="close" class="cl"><i class="bx bx-x" ></i></a>
+                </div>
                 <label for="uname"> 
             <i class="fa fa-solid fa-user"></i> 
             Name 
