@@ -382,9 +382,6 @@ button{
   transition: box-shadow 0.4s ease-in-out;
   pointer-events: none;
 }
-.quote-box:hover{
-  box-shadow: 10px 10px 2px rgba(255, 255, 255, 0.25) ;
-}
 .home-img .glowing-circle{
   margin:20% 20% 0 ;
   opacity: 0;
@@ -511,6 +508,21 @@ button{
   .home-sci{
     display: flex;
     gap: 0.7rem;
+  }
+  .home-sci a:nth-child(1){
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2.1s;
+  }
+  .home-sci a:nth-child(2){
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 2.1s;
+  }
+  .home-sci a:nth-child(3){
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2.1s;
   }
   .text-info span  {
     font-size: 20px;
