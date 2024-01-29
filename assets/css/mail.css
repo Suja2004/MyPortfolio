@@ -147,12 +147,10 @@ textarea::-webkit-scrollbar {
 }
 @media screen and (max-width:500px) {
     
-    .cursor{
-		background: none;
-		display: none;
-		animation: none;
-		opacity: 0;
-		cursor: default;
-		pointer-events: visible;
+    body{
+		.cursor{
+			opacity: 0;
+		}
+		cursor: auto;
 	}
 }
