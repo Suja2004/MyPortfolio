@@ -510,6 +510,7 @@ button{
   }
   .home-sci{
     display: flex;
+    gap: 0.7rem;
   }
   .text-info span  {
     font-size: 20px;
