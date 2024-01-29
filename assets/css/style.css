@@ -210,6 +210,7 @@ html:hover {
   width: 100%;
 }
 .logo{
+  font-size: 25px;
   text-decoration: none;
   font-weight: 600;
   pointer-events: none;
@@ -498,6 +499,9 @@ button{
       background: #1e3b726b;
       display: none;
   }
+  .profile-info{
+    width: 300px;
+  }
   .navbar a{
       font-size: 1rem;
       font-weight: 600;
@@ -506,7 +510,6 @@ button{
   .home-img{
     margin: 30% 0 10%;
     transform: scale(1.5);
-    padding-top: 25%;
   }
   .text-info span  {
     width: 100%;
@@ -518,6 +521,9 @@ button{
   .text-animation{
     margin-left: 12%;
     font-size: 28px;
+  }
+  footer{
+    width: 100%;
   }
   .show{
     .navbar {
