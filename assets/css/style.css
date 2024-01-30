@@ -479,7 +479,6 @@ button{
     color: #fff;
     background: none;
     border: none;
-    cursor: none;
     } 
   .navbar {
     position: absolute;
@@ -548,6 +547,11 @@ button{
     }
     
 }
+  }
+  @media (max-width:1000px) {
+  #menu-icon,#ie{
+    cursor: auto;
+  }
   }
 /* =============== FOOTER =============== */
 

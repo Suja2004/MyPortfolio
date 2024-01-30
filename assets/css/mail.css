@@ -145,11 +145,14 @@ textarea::-webkit-scrollbar {
 	}
 
 }
-@media screen and (max-width:500px) {
+@media (max-width:1000px) {
     
     body{
 		.cursor{
 			opacity: 0;
+		}
+		a,button{
+			cursor: auto;
 		}
 		cursor: auto;
 	}
