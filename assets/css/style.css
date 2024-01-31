@@ -256,6 +256,7 @@ button{
   opacity: 0;
   animation: slideTop .5s ease forwards;
   animation-delay: calc(.2s * var(--i));
+  cursor: none;
 }
 /* =============== HOME =============== */
 #home{
@@ -560,6 +561,12 @@ button{
   }
   .light{
     .logo{
+      cursor: default;
+    }
+    #mode{
+      cursor: default;
+    }
+    .home-sci{
       cursor: default;
     }
   }

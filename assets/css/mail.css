@@ -151,9 +151,15 @@ textarea::-webkit-scrollbar {
 		.cursor{
 			opacity: 0;
 		}
-		a,button{
+		a,button,form,input,textarea,.form-box{
 			cursor: auto;
 		}
 		cursor: auto;
+		
+	}
+	.light{
+		a{
+			cursor: default;
+		}
 	}
 }
