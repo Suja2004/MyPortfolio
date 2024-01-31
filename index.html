@@ -17,7 +17,7 @@
     <!--==================== HEADER ====================-->
     <header id="HOME">
       <div class="header-content">
-        <a href="#HOME" class="logo">Portfolio.</a>
+        <button onclick="scrollTotarget()" class="logo">Portfolio.</button>
         <button id="menu-icon">     
           <i id="IE" class="bx bx-menu" ></i>
 </button>
@@ -30,6 +30,12 @@
         </nav>
       </div>
     </header>
+    <script>
+      var targetid = document.getElementById('HOME');
+      function scrollTotarget(){
+        targetid.scrollIntoView({behavior: 'smooth'});
+      }
+    </script>
     <!--==================== HOME ====================-->
     <section id="home">
       <div class="main-content">
