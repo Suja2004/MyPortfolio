@@ -560,7 +560,7 @@ button{
   }
   .light{
     .logo{
-      cursor: auto;
+      cursor: default;
     }
   }
   }
