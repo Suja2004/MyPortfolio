@@ -477,6 +477,9 @@ button{
   .project{
     grid-template-columns: repeat(2,2fr);
   }
+  footer{
+    margin-bottom: none;
+  }
 }
 @media(max-width:895px){
   
