@@ -473,7 +473,7 @@ button{
     font-weight: 400;
   }
 /* =========== BREAKPOINTS =========== */
-@media screen and (min-width:895px) {
+@media screen and (min-width:895px) and (max-height:1790px) {
   .project{
     grid-template-columns: repeat(2,2fr);
   }
