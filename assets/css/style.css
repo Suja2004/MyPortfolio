@@ -77,6 +77,10 @@ html {
  .text-info span{
   color: #0c1022;
  }
+ .about{
+  background-color: #d2ffd1;
+  color: #0c1022;
+}
   #projects{
       background-color: #d2ffd1;
       color: #0c1022;
@@ -292,7 +296,18 @@ button{
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
 }
-
+.about .heading{
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: 1s;
+}
+.about p{
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 1s;
+}
 .home-sci a{
     position: relative;
     display: flex;
@@ -432,11 +447,18 @@ button{
   object-fit: cover;
 }
 /* =============== PROJECTS =============== */
-
+#projects h1{
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 2.1s;
+}
 .project{
   display: grid;
   grid-template-columns: repeat(1,1fr);
   gap: 12px;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: 2.1s;
   .navbar #n2{
     border-bottom: #0c1022;
   }
@@ -449,6 +471,9 @@ button{
 }
 .project-grid:hover{
   background-color: rgb(111, 137, 145);
+}
+.project-grid:hover{
+  transform: scale(1.1);
 }
 .project-link{
   display: flex;
@@ -573,11 +598,15 @@ button{
     .home-sci{
       cursor: default;
     }
+    .about,.about a{
+      cursor: default;
+    }
   }
   }
 /* =============== FOOTER =============== */
 
 footer{
+  font-weight: 660;
   display: flex;
   justify-content: center;
   padding-top: 10px;
