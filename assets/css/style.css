@@ -68,9 +68,7 @@ html {
     box-shadow: 0 0 20px rgba(54, 54, 54, 0.2);
     transition: box-shadow 0.4s ease-in-out;
   }
-  .quote-box:hover{
-    box-shadow: 10px 10px 2px #2e8857e6 !important;
-  }
+ 
  #home{
  background-color: #d2ffd1;
  }
@@ -406,9 +404,6 @@ button{
   transition: box-shadow 0.4s ease-in-out;
   pointer-events: none;
 }
-.quote-box:hover {
-    box-shadow: 10px 10px 2px #2e8857e6 !important;
-}
 
 .home-img .glowing-circle{
   margin:20% 20% 0 ;
@@ -579,7 +574,7 @@ button{
     margin:20% 20% 0 0;
   }
   .quote-box{
-    box-shadow: 10px 10px 2px #2e8857e6;
+    box-shadow: 10px 10px 2px #fff;
   }
   .show{
     .navbar {
@@ -599,7 +594,7 @@ button{
     cursor: auto;
   }
     .quote-box{
-    box-shadow: 10px 10px 2px #2e8857e6;
+    box-shadow: 10px 10px 2px #fff;
   }
   .light{
     .logo{
@@ -611,9 +606,13 @@ button{
     .home-sci{
       cursor: default;
     }
-    .about,.about a{
+    .about,
+    .about a{
       cursor: default;
     }
+     .quote-box{
+    box-shadow: 10px 10px 2px #2e8857e6;
+  }
   }
   }
 /* =============== FOOTER =============== */
