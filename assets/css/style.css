@@ -232,7 +232,8 @@ html:hover {
 header{
   color: var(--font-color);
 }
-.navbar a{
+.navbar a,
+.download{
   display: inline-block;
   padding-top: 15px;
   font-size: 17px;
@@ -242,7 +243,8 @@ header{
   animation: slideTop .5s ease forwards;
   animation-delay: calc(.2s * var(--i));
 }
-.navbar a:hover{
+.navbar a:hover,
+.download:hover{
   background: var(--linear);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
