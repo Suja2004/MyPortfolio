@@ -127,7 +127,7 @@ html {
     cursor: none;
   }
   .navbar a:hover,
-  .download{
+  .download:hover{
     background: none;
     background-image: linear-gradient(45deg,#3cf,#2cf604, #3cf);;
     -webkit-text-fill-color: transparent;
@@ -578,6 +578,9 @@ button{
   .home-img .glowing-circle{
     margin:20% 20% 0 0;
   }
+  .quote-box{
+    box-shadow: 10px 10px 2px #2e8857e6;
+  }
   .show{
     .navbar {
         display: flex;
@@ -594,6 +597,9 @@ button{
   @media (max-width:1000px) {
   #menu-icon,#ie,.logo{
     cursor: auto;
+  }
+    .quote-box{
+    box-shadow: 10px 10px 2px #2e8857e6;
   }
   .light{
     .logo{
