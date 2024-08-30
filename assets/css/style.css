@@ -579,9 +579,7 @@ button{
   .home-img .glowing-circle{
     margin:20% 20% 0 0;
   }
-  .quote-box{
-    box-shadow: 10px 10px 2px #fff;
-  }
+ 
   .show{
     .navbar {
         display: flex;
