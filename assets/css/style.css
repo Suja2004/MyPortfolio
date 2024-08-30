@@ -1,6 +1,4 @@
 /* =============== GLOBAL =============== */
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
-
 :root {
   /*========== Colors ==========*/
   --bg-color: #0c1022;
@@ -154,7 +152,7 @@ html {
 body {
   background-color: var(--bg-color);
   text-align: center;
-  font-family: 'Sora', sans-serif;
+  font-family: 'Audiowide', sans-serif;
   color: var(--font-color);
   margin: 0;
   padding: 0;
@@ -462,7 +460,7 @@ button{
 .project{
   display: grid;
   grid-template-columns: repeat(1,1fr);
-  gap: 12px;
+  gap: 20px;
   opacity: 0;
   animation: slideRight 1s ease forwards;
   animation-delay: 2.1s;
