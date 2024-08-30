@@ -397,7 +397,6 @@ button{
   border-bottom:1px solid #fff;
 }
 .quote-box{
-  z-index:100;
   padding: 16px;
   background-color: #838596;
   border-radius: 10px;
