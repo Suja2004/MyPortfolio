@@ -599,9 +599,7 @@ button{
   #menu-icon,#ie,.logo{
     cursor: auto;
   }
-    .quote-box{
-    box-shadow: 10px 10px 2px #fff;
-  }
+    
   .light{
     .logo{
       cursor: default;
@@ -616,9 +614,7 @@ button{
     .about a{
       cursor: default;
     }
-     .quote-box{
-    box-shadow: 10px 10px 2px #2e8857e6;
-  }
+     
   }
   }
 /* =============== FOOTER =============== */
