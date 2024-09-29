@@ -53,7 +53,9 @@ html {
     background-image: none;
     margin-top: 0;
     background-color: #ffffff;
+    box-shadow: 0 -12px 9px #000000a4;
   }
+
 
   .logo {
     color: #0c1022;
@@ -120,7 +122,7 @@ html {
     background: none;
     border-radius: 50%;
     z-index: -1;
-    filter: blur(5px);
+    filter: blur(10px);
     transition: .5s ease;
   }
 
@@ -153,7 +155,7 @@ html {
     background-image: linear-gradient(45deg, #3cf, #2cf604, #3cf);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    border-bottom: 2px solid var(--headline-color);
+    border-bottom: 2px solid #04f60b;
   }
 
   .glowing-circle span:nth-child(2) {
@@ -242,13 +244,14 @@ html:hover {
   align-items: center;
   z-index: 100;
   width: 100%;
-  box-shadow: 0 15px 9px #000;
+  box-shadow: 0 12px 9px #000000a4;
 }
 
 .logo {
   display: block;
   font-size: 25px;
   text-decoration: none;
+  font-family: 'Audiowide', sans-serif;
   font-weight: 600;
   cursor: none;
   opacity: 0;
@@ -465,8 +468,10 @@ button {
 }
 
 .home-img .glowing-circle {
+  left: 10%;
   margin: 20% 20% 0;
   opacity: 0;
+  scale: 1.5;
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
   animation-delay: 2.1s, 3.1s;
 }
@@ -528,9 +533,6 @@ button {
   animation: slideRight 1s ease forwards;
   animation-delay: 2.1s;
 
-  .navbar #n2 {
-    border-bottom: #0c1022;
-  }
 }
 
 .project-grid {
@@ -538,14 +540,22 @@ button {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.project-grid.visible {
+  animation: fadeIn 1.2s forwards;
+}
+
+.project-grid.hidden {
+  animation: fadeOut 1.2s forwards;
 }
 
 .project-grid:hover {
   background: var(--linear);
-}
-
-.project-grid:hover {
-  transform: scale(1.05);
+  scale: 1.05;
 }
 
 .project-link {
@@ -602,7 +612,7 @@ button {
     gap: 1rem;
     width: 100%;
     background-color: #1e3b72;
-    box-shadow: 0 15px 9px #000;
+    box-shadow: 0 15px 9px #0000008a;
     justify-content: space-around;
     align-items: center;
     display: none;
@@ -615,13 +625,17 @@ button {
   }
 
   .navbar a {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 600;
     padding: 2px 0;
   }
 
-  .home-img {
-    transform: scale(1.3);
+  .text-info {
+    scale: 1.3;
+  }
+
+  .glowing-circle {
+    scale: 1.3;
   }
 
   .home-sci {
@@ -670,15 +684,13 @@ button {
       animation: slideTop 1s ease forwards;
     }
 
-    header .navbar a:hover {
-      padding-left: 10px;
-      border-bottom: 2px solid;
-    }
+
 
   }
-  .light{
-    .navbar{
-    background: #fff;
+
+  .light {
+    .navbar {
+      background: #fff;
     }
   }
 }
@@ -753,7 +765,7 @@ footer a {
 
   61%,
   80% {
-    content: ' Student';
+    content: 'CSE Student';
   }
 
   81%,
@@ -881,5 +893,29 @@ footer a {
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(20px);
   }
 }
