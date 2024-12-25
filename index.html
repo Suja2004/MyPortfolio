@@ -240,11 +240,14 @@
     <div class="textup">
       <i class="fa fa-solid fa-clock"></i>
     </div>
-    <form action="https://formsubmit.co/190578ada8c4c10066ef3a521c3f3553" method="POST">
+    <form action="https://api.web3forms.com/submit" method="POST">
+
       <div class="con">
         <h2 class="contact">CONTACT ME</h2>
         <a href="#" id="close" class="cl"><i class="bx bx-x"></i></a>
       </div>
+      <input type="hidden" name="access_key" value="3e9b20d4-7199-48c1-a69f-2544e3319398">
+
       <label for="uname">
         <i class="fa fa-solid fa-user"></i>
         Name
@@ -266,9 +269,8 @@
         <i class="fa-solid fa-comments" style="margin-right: 3px;"></i>
         Message
       </label>
-      <textarea id="msg" name="msg" rows="4" cols="10" required>
-          </textarea>
-      <input type="hidden" name="_template" value="box">
+      <textarea id="msg" name="message" required>          </textarea>
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
       <button class="btn" type="submit">
         Submit
       </button>
