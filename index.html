@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/Watashi.jpeg">
+  <title>Sujan Kumar K</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/css/mail.css">
+
+</head>
+
+<body id="b">
+  <!--==================== HEADER ====================-->
+  <header id="HOME">
+    <div class="header-content">
+      <button onclick="scrollTotarget()" class="logo">Portfolio.</button>
+      <div class="navigations">
+        <button id="menu-icon">
+          <i id="IE" class="bx bx-menu"></i>
+        </button>
+        <nav class="navbar">
+          <a href="#HOME" style="--i:2">HOME</a>
+          <a href="#about" style="--i:3">ABOUT</a>
+          <a href="#projects" style="--i:4" #n2>PROJECTS</a>
+        </nav>
+        <button type="button" title="Theme" id="mode" style="--i:4">
+          <i id="ie" class='bx bxs-moon'></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+  <script>
+    var targetid = document.getElementById('HOME');
+    function scrollTotarget() {
+      targetid.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+  <!--==================== HOME ====================-->
+  <section id="home">
+    <div class="main-content">
+      <div class="profile-info">
+        <section class="contact">
+          <div class="home-sci">
+            <a href="https://www.linkedin.com/in/sujan-kumar-k164" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/suja2004" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="#mail" id="btn2"><i class='bx bxl-gmail'></i></i></a>
+          </div>
+        </section>
+        <div class="home-img">
+          <div class="glowing-circle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="image">
+              <img src="assets/images/me.png" alt="Myprofile">
+            </div>
+          </div>
+
+          <div class="text-info">
+            <span>Hi,</span>
+            <span >It's Sujan Kumar K </span>
+
+          </div>
+        </div>
+      </div>
+      <div class="user-bio">
+        <h3 class="text-animation">
+          I'm a <span></span>
+        </h3>
+        <p>Aspiring Computer Science Engineer
+          with a passion for coding, seeking opportunities
+          in software development. Strong in Java, C and
+          Web technologies. <br>
+          <a class="download" href="assets/myResume (1).pdf" download>
+            Download My Resume
+          </a>
+        </p>
+      </div>
+
+      <div class="quote-box">
+        <blockquote>
+          <i>
+            “Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.”
+            <br /> - Albert Einstein
+          </i>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+  <!--==================== ABOUT ME ====================-->
+  <section class="about" id="about">
+    <div class="main-content">
+      <h2 class="heading">ABOUT ME</h2>
+      <p>
+        Hello! I'm Sujan Kumar K, an engineering student
+        navigating through the challenges of college life. Currently
+        studying B.E in Computer Science and Engineering at
+        <a href="https://sode-edu.in" target="_blank">
+          Shri Madhwa Vadiraja Institute of Technology
+          and Management,Bantakal</a>,
+        I find satisfaction in deciphering complex problems
+        and engaging in hands-on projects. Beyond the technical
+        side, I enjoy drawing,reading, and playing.
+        Open to connecting with fellow students, mentors,
+        or anyone intrigued by the Engineering and Tech world.
+      </p>
+    </div>
+  </section>
+  <!--==================== PROJECTS ====================-->
+  <section id="projects">
+    <div class="main-content">
+      <h1>PROJECTS</h1>
+      <div class="project">
+        <div class="project-grid">
+          <a href="https://github.com/Suja2004/LocalGoods" target="_blank" class="project-link">
+            <h3>LOCAL GOODS</h3>
+            <i class="ri-external-link-fill"></i>
+          </a>
+          <p>"Local Goods" is an e-commerce platform designed to support local shops by providing them
+            with a robust online presence.</p>
+          <div class="project-lang">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+        <div class="project-grid">
+          <a href="https://github.com/Suja2004/hackathon.git" target="_blank" class="project-link">
+            <h3>TESTIFY</h3>
+            <i class="ri-external-link-fill"></i>
+          </a>
+          <p>"TESTIFY" is a quiz website designed to be engaging and user-friendly for both students and teachers.</p>
+          <div class="project-lang">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>MYSQL</span>
+          </div>
+        </div>
+        <div class="project-grid">
+          <a href="https://github.com/Suja2004/Blog" target="_blank" class="project-link">
+            <h3>Thoughts & Threads</h3>
+            <i class="ri-external-link-fill"></i>
+          </a>
+          <p>"Thoughts & Threads" is a dynamic blogging web app that features user authentication, enabling bloggers to
+            create and share posts while interacting through likes and comments</p>
+          <div class="project-lang">
+            <span>MERN STACK</span>
+          </div>
+        </div>
+        <div class="project-grid">
+          <a href="https://github.com/suja2004/College.git" target="_blank" class="project-link">
+            <h3>SAMS</h3>
+            <i class="ri-external-link-fill"></i>
+          </a>
+          <p>"Student Attendance Management System" is a desktop based application designed to automate the tracking and
+            management of student attendance. </p>
+          <div class="project-lang">
+            <span>JAVA</span>
+            <span>MYSQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--==================== FOOTER ====================-->
+    <footer>&COPY; 2024<a href="https://www.linkedin.com/in/sujan-kumar-k164" target="_blank">BUILT BY SUJAN KUMAR K</a>
+    </footer>
+  </section>
+
+  <!-- =================== CONTACT ================== -->
+  <div class="form-box">
+    <div class="textup">
+      <i class="fa fa-solid fa-clock"></i>
+    </div>
+    <form action="https://formsubmit.co/190578ada8c4c10066ef3a521c3f3553" method="POST">
+      <div class="con">
+        <h2 class="contact">CONTACT ME</h2>
+        <a href="#" id="close" class="cl"><i class="bx bx-x"></i></a>
+      </div>
+      <label for="uname">
+        <i class="fa fa-solid fa-user"></i>
+        Name
+      </label>
+      <input type="text" id="uname" name="name" required>
+
+      <label for="email">
+        <i class="fa fa-solid fa-envelope"></i>
+        Email Address
+      </label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">
+        <i class="fa-solid fa-phone"></i>
+        Subject
+      </label>
+      <input type="text" name="subject" required>
+      <label for="msg">
+        <i class="fa-solid fa-comments" style="margin-right: 3px;"></i>
+        Message
+      </label>
+      <textarea id="msg" name="msg" rows="4" cols="10" required>
+          </textarea>
+      <input type="hidden" name="_template" value="box">
+      <button class="btn" type="submit">
+        Submit
+      </button>
+    </form>
+  </div>
+
+  <!-- ============================ -->
+  <div class="cursor"></div>
+
+  <script type="text/javascript">
+    const cursor = document.querySelector(".cursor");
+    var timeout;
+    document.addEventListener("mousemove", (e) => {
+      let x = e.clientX;
+      let y = e.clientY;
+      cursor.style.top = y + "px";
+      cursor.style.left = x + "px";
+      cursor.style.display = "block";
+
+      function mouseStopped() {
+        cursor.style.display = "none";
+      }
+      clearTimeout(timeout);
+      timeout = setTimeout(mouseStopped, 5000);
+    });
+
+
+    document.addEventListener("mouseout", () => {
+      cursor.style.display = "none";
+    });
+  </script>
+  <script src="script.js"></script>
+  <!-- ================================ -->
+</body>
+
+</html>
