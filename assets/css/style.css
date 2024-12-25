@@ -298,7 +298,7 @@ header {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  text-decoration: underline 2px solid var(--headline-color);
+  text-decoration: underline 2px solid #3cf;
 }
 
 button {
