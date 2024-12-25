@@ -82,7 +82,7 @@ html {
   }
 
   .quote-box:hover {
-    box-shadow: 10px 10px 2px #8f9b94e6;
+    box-shadow: 10px 10px 2px #04f60c39;
   }
 
   #home {
@@ -251,7 +251,7 @@ html:hover {
   align-items: center;
   z-index: 100;
   width: 100%;
-  box-shadow: 0 6px 6px #2c63c2;
+  box-shadow: 0 6px 6px #2c63c2b6;
 }
 
 .logo {
@@ -479,7 +479,7 @@ button {
 }
 
 .quote-box:hover {
-  box-shadow: 10px 10px 2px #fff;
+  box-shadow: 10px 10px 2px #2c63c2b6;
 }
 
 .home-img .glowing-circle {
@@ -782,7 +782,7 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-  box-shadow: 0 -6px 6px #2c63c2;
+  box-shadow: 0 -6px 6px #2c63c2b6;
 }
 
 footer a {
